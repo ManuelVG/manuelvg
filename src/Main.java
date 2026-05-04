@@ -10,7 +10,7 @@ public class Main {
     }
 
     private static void mostrarResultado(int resultado) {
-        System.out.println("Resultado final: " + resultado);
+        System.out.println("Resultado desde GitHub: " + resultado);
     }
 
     public static int suma(int x, int y) {
