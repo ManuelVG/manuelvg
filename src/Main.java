@@ -1,16 +1,20 @@
 public class Main {
 
     public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
+        int numero1 = 5;
+        int numero2 = 10;
 
-        int resultado = suma(a, b);
+        int resultado = suma(numero1, numero2);
 
+        mostrarResultado(resultado);
+    }
+
+    private static void mostrarResultado(int resultado) {
         System.out.println("El resultado es: " + resultado);
     }
 
     public static int suma(int x, int y) {
-        int res = x + y;
-        return res;
+        int resultadoSuma = x + y;
+        return resultadoSuma;
     }
 }
